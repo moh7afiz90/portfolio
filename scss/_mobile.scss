@@ -1,11 +1,15 @@
 // Wide Screen
 @include mediaXL {
-
+  .projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 // Desktop & Labtop
 @include mediaLg {
-  
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 // Tablets & Small Laptops

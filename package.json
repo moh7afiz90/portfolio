@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Portfolio Website",
   "main": "index.js",
+  "homepage": "https://moh7afiz90.github.io/portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy":"gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -15,8 +17,8 @@
   "bugs": {
     "url": "https://github.com/moh7afiz90/portfolio/issues"
   },
-  "homepage": "https://github.com/moh7afiz90/portfolio#readme",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "node-sass": "^4.9.2"
   }
 }
